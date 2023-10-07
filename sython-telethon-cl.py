@@ -43,13 +43,13 @@ filename = 'sython.json'
 try:
     with open(filename, 'r') as f:
         data = json.load(f)
-        api_id = data['api_id']
-        api_hash = data['api_hash']
-        bot_token = data['bot_token']
-        DEVLOO = data['DEVLOO']
-        MAX_ACCOUNTS = data['MAX_ACCOUNTS']
-        user_bot = data['user_bot']
-        id_bot = data['id_bot']
+        api_id = data['29167512']
+        api_hash = data['4c9ec8f8fc4989491e71fcff719008bd']
+        bot_token = data['6531945042:AAFzRLqQfWGQJTg6ijIZydjrVT5UO-16SDk']
+        DEVLOO = data['1095638828']
+        MAX_ACCOUNTS = data['10']
+        user_bot = data['SY0Fbot']
+        id_bot = data['6531945042']
 
     
     data = {
