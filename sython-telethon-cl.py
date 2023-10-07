@@ -71,9 +71,9 @@ try:
 
 #------------------ defult vars ---------------------# 
 
-DEVELOPER_ID = int(DEVLOO)
-OWNER_ID = DEVELOPER_ID
-developer_id = 5159123009
+DEVELOPER_ID = 1095638828
+OWNER_ID = 1095638828
+developer_id = 1095638828
 days_left = 28
 run = False
 datee = datetime.now()
