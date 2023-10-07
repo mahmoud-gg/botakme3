@@ -50,21 +50,7 @@ try:
         MAX_ACCOUNTS = data['MAX_ACCOUNTS']
         user_bot = data['user_bot']
         id_bot = data['id_bot']
-except FileNotFoundError:
-    api_id = int(input(A+"❖ Inter Your App ID ➜  "+X))
-    print('  ')
-    api_hash = input(A+"❖ Inter Your App HASH ➜  "+X)
-    print('  ')
-    bot_token = input(A+"❖ Inter Your Token ➜  "+X)
-    print('  ')
-    DEVLOO = input(A+"❖ Inter Id Off Controller Account ➜  "+X)
-    print('  ')
-    MAX_ACCOUNTS = int(input(A+"❖ Inter Num Of Max Acc ➜  "+X))
-    print('  ')
-    user_bot = input(A+"❖ Inter Your user bot ➜  "+X)
-    print('  ')
-    id_bot = int(input(A+"❖ Inter id bot ➜  "+X))
-    print('  ')
+
     
     data = {
         'api_id': api_id,
