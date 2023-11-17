@@ -1,0 +1,53 @@
+{
+	"name": "تجميع",
+	"description": "بوت تجميع",
+	"logo": "https://telegra.ph/file/80ad87338d4ee045c51a6.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+
+    "env": {
+        "BOT_TOKEN": {
+            "description": "توكن",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "" 
+},
+        "DEVLOO": {
+            "description": "يوسر المطور",
+            "value": ""            
+            
+            },
+            "MAX_ACCOUNTS": {
+            "description": "عدد الحسابات",
+            "value": ""    
+            
+            },
+            "user_bot": {
+            "description": "يوسر البوت",
+            "value": ""    
+            
+            },
+            "id_bot": {
+            "description": "ايدي البوت",
+            "value": ""    
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
